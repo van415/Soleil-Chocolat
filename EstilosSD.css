@@ -1,0 +1,581 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap’);
+
+*{
+    Margin: 0%;
+    Padding: 0%;
+    Box-sizing: border-box;
+    Text-decoration: none;
+    List-style: none;
+
+}
+
+Body{
+   Font-family: “Poppins”, sans-serif;
+}
+    .container{
+        Max-width: 1200px;
+        Margin: 0 auto;
+
+    }
+
+    .header {
+        Background: linear-gradient(
+            Rgba(0, 0, 0, 0.7),
+            Rgba(0, 0, 0, 0.7)),
+            url(Fondo\ de\ Pantalla\ Computador\ Simple\ Beige.png) center bottom no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 70vh;
+        display: flex;
+        align-items: center; 
+    }
+   .menu {
+    Position: absolute;
+    Top: 0;
+    Left: 0;
+    Right: 0;
+    Display: flex;
+    Align-items: center;
+    Justify-content: space-between;
+
+   }
+   .Logo {
+    Color: #FFFDFC;
+    Font-size: 25px;
+    Font-weight: 800;
+
+   }
+   .menu .navbar ul li {
+    Position: relative;
+    Float: left;
+
+   }
+   
+   .menu .navbar ul li a{
+    Font-size: 18px;
+    Padding: 20px;
+    Color: #FFFDFC;
+    Display: block;
+    Font-weight: 600;
+   }
+   .menu .navbar ul li a:hover {
+    Color: #CE967B;
+   }
+   #menu {
+    Display: none;
+   }
+   .menu-icono {
+    Width: 100px;
+   }
+   Menu label {
+    Cursor: pointer;
+    Display: none;
+   }
+   .header-content {
+    Text-align: center;
+
+   }
+   .header-content h1 {
+    Font-size: 75px;
+    Line-height: 80px;
+    Color: #F9FAFC;
+    Text-transform: uppercase;
+    Margin-bottom: 35px;
+
+   }
+.header-content p {
+    Font-size: 16px;
+    Color: #C5C5C5;
+    Padding: 0 250px;
+    Margin-bottom: 25px;
+
+}
+.btn-1 {
+    Display: inline-block;
+    Padding: 11px 35px;
+    Background-color: #CE967B;
+    Color: #F9FAFC;
+    Text-transform: uppercase;
+
+}
+.btn-1:hover {
+    Background-color: #ecad8d;
+}
+
+.Informm {
+    Padding: 100px 0;
+    Background-color: #E1E2E6;
+    Position: relative;
+
+}
+.Informm-content {
+    Text-align: center;
+}
+.Informm-content h2 {
+    Font-size: 55px;
+    Line-height: 70px;
+    Color: #323337;
+    Text-transform: uppercase;
+    Padding: 0 250px;
+    Margin-bottom: 15px;
+
+}
+.video-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 50vh; 
+        border: #D4A373 5px solid; 
+        border-radius: 10px; 
+        background-color: beige;
+    }
+.txt-p {
+    Font-size: 16px;
+    Color: #414247;
+    Padding: 0 250px;
+    Margin-bottom: 35px;
+}
+.Informm-group {
+    Display: flex;
+    Justify-content: space-between;
+    Margin-bottom: 50px;
+
+}
+.Informm-1 {
+    Padding: 0 25px;
+}
+.Informm-1 img {
+    Width: 200px;
+}
+.Informm-img {
+    Position: absolute;
+    Top: 0;
+    Right: 0;
+}
+.Informm-1 h3{
+    Color: #323337;
+    Font-size: 20px;
+    Margin-bottom: 15px;
+}
+.Services {
+    Background-image:  linear-gradient(
+        Rgba(0,0,0,0.7),
+        Rgba(0,0,0,0.7)),
+        url(Fondo\ de\ Pantalla\ Computador\ Simple\ Beige.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+.Services-content {
+    Text-align: center;
+
+}
+.Services-content h2 {
+    Font-size: 55px;
+    Line-height: 70px;
+    Color: #F9FAFC;
+    Text-transform: uppercase;
+    Margin-bottom: 50px;
+}
+.Services-content p {
+    Font-size: 16px;
+    Color: #C5C5C5;
+    Margin-bottom: 50px;
+    Padding: 0 100px;
+}
+.Services-group {
+    Display: flex;
+    Justify-content: space-between;
+    Margin-bottom: 50px;
+}
+.services-1 {
+    text-align: center;
+    Padding:  0 100px;
+}
+.services-1 img {
+    Width: 150px;
+    border-radius: 5pxs;
+    Margin-bottom: 30px;
+}
+.services-1 h3 {
+    Color: #EACCB3;
+    Font-size: 18px;
+}
+.general {
+    Display: flex;
+}
+.general-1 {
+    Width: 50%;
+    Padding: 100px 250px 100px 100px;
+    Background-color: #E1E2E6;
+}
+.general-2 {
+    Background-image: url(fondo\ chocolate\ blanco.jpg);
+    Background-position: center center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Width: 50%;
+}
+.general-3 {
+    Background-image: url(fondo\ helados.jpg);
+    Background-position: center center;
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Width: 50%;
+}
+H2 {
+    Font-size: 55px;
+    Line-height: 70px;
+    Color: #323337;
+    Text-transform: uppercase;
+    Margin-bottom: 20px;
+}
+P {
+    Font-size: 16px;
+    Color: #414247;
+    Margin: 25px 0 45px 0;
+}
+.blog {
+    Padding: 100px 0;
+    Text-align: center;
+}
+.blog-content {
+    Display: flex;
+    Justify-content:  space-between;
+}
+.blog-1 {
+    Padding: 15px 55px;
+}
+.blog-1 img {
+    Width: 250px;
+    Border-radius: 15px;
+    Margin-bottom: 15px;
+}
+.blog-1 h3 {
+    Font-size: 25px;
+    Color: #323337;
+}
+.footer {
+    Padding: 100px 0;
+    Background-color: #000000;
+}
+.footer-content {
+    Display: flex;
+    Justify-content: space-between;
+}
+.link h3 {
+    Font-size: 18px;
+    Color: #F9FAFC;
+    Margin-bottom: 15px;
+}
+.link a {
+    Font-size: 16px;
+    Color: #C5C5C5;
+    Display: block;
+    Margin-bottom: 15px;
+}
+@media(max-width:991px){
+    .menu {
+        Padding: 30px;
+    }
+    Menu label {
+        Display: initial;
+    }
+    .menu .navbar {
+        Position: absolute;
+        Top: 100%;
+        Left: 0;
+        Right: 0;
+        Background-color: #323337;
+        Display: none;
+    }
+    .menu .navbar ul li {
+        Width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        Display: initial;
+    }
+    .header {
+        Min-height: 0vh;
+    }
+    .header-content {
+        Padding: 100px 30px;
+    }
+    .header-content p {
+        Padding: 0;
+    }
+    .Informm {
+        Padding: 30px;
+    }
+    .Informm-content h2 {
+        Padding: 0;
+    }
+    .txt-p {
+        Padding: 0;
+    }
+    .Informm-group {
+        Flex-direction: column;
+    }
+    .Informm-img {
+        Display: none;
+    }
+    .Services {
+        Padding: 30px;
+    }
+    .Services-content p {
+        Padding: 0;
+    }
+    .Services-group {
+        Flex-direction: column;
+        Margin-bottom: 0;
+    }
+    .services-1 {
+        Margin-bottom: 25px;
+    }
+    .general {
+        Flex-direction: column;
+    }
+    .general-1 {
+        Width: 100%;
+        Padding: 30px;
+        Text-align: center;
+    }
+    .general-2, .general-3 {
+        Display: none;
+    }
+    .blog {
+        Padding: 30px;
+    }
+    .blog-content {
+        Flex-direction: column;
+    }
+    .blog-1 {
+        Padding: 0;
+    }
+    .footer {
+        Padding: 30px;
+    }
+    .footer-content {
+        Flex-direction: column;
+        Text-align: center;
+    }
+}
+
+.producto {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.producto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.producto-imagen img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.producto-detalles {
+    width: 50%;
+    padding: 20px;
+}
+
+.producto-detalles h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.precio {
+    font-size: 24px;
+    color: #CE967B;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CE967B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-1:hover {
+    background-color: #ecad8d;
+}
+
+.producto-info {
+    margin-top: 30px;
+}
+
+.producto-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.producto-info ul {
+    list-style: none;
+}
+
+.producto-info ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.producto-alternativas {
+    margin-top: 50px;
+}
+
+.producto-alternativas h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.alternativas-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.alternativa {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alternativa img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.alternativa p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+.producto {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.producto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0ece3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.producto-imagen img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.producto-detalles {
+    width: 50%;
+    padding: 20px;
+}
+
+.producto-detalles h1 {
+    font-size: 32px;
+    color: #5A3E2B;
+}
+
+.precio {
+    font-size: 24px;
+    color: #D4A373;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D4A373;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-1:hover {
+    background-color: #bf8b58;
+}
+
+.producto-info {
+    margin-top: 30px;
+}
+
+.producto-info h2 {
+    font-size: 24px;
+    color: #5A3E2B;
+    margin-bottom: 10px;
+}
+
+.producto-info ul {
+    list-style: none;
+}
+
+.producto-info ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.producto-alternativas {
+    margin-top: 50px;
+}
+
+.producto-alternativas h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #5A3E2B;
+}
+
+.alternativas-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.alternativa {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alternativa img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.alternativa p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
